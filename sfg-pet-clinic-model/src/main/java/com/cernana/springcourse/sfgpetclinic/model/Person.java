@@ -1,6 +1,6 @@
 package com.cernana.springcourse.sfgpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 	
 	private String firstName;
 	
