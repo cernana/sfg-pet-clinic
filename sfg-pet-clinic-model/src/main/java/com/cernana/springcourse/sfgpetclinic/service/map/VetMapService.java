@@ -2,9 +2,12 @@ package com.cernana.springcourse.sfgpetclinic.service.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.cernana.springcourse.sfgpetclinic.model.Vet;
 import com.cernana.springcourse.sfgpetclinic.service.VetService;
 
+@Service
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 	
 	@Override
